@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1746458433488,
+      "tag": "0000_amusing_wildside",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1746508113796,
+      "tag": "0001_powerful_stick",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1746514451515,
+      "tag": "0002_mean_mother_askani",
+      "breakpoints": true
+    }
+  ]
+}
