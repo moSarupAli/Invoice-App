@@ -56,7 +56,7 @@ export async function createAction(formData: FormData) {
     })
   ;
 
-  const { data, error } = await resend.emails.send({
+  await resend.emails.send({
     from: 'Space Jelly <info@test.spacejelly.dev>',
     to: ['delivered@resend.dev'],
     subject: 'You have a New Invoice',

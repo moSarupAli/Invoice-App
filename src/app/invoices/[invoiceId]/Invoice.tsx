@@ -50,7 +50,7 @@ export default function Invoice({ invoice }: InvoiceProps) {
       // });
       // throw new Error(`I'm making this fail!`);
       await updateStatusAction(formData);
-    } catch(e) {
+    } catch {
       setCurrentStatus(originalStatus);
     }
   }

@@ -6,7 +6,7 @@ import {
   Heading,
   Hr,
   Html,
-  Img,
+  // Img,
   Link,
   Preview,
   Section,
@@ -54,11 +54,11 @@ InvoiceCreatedEmail.PreviewProps = {
 
 export default InvoiceCreatedEmail;
 
-const logo = {
-  borderRadius: 21,
-  width: 42,
-  height: 42,
-};
+// const logo = {
+//   borderRadius: 21,
+//   width: 42,
+//   height: 42,
+// };
 
 const main = {
   backgroundColor: '#ffffff',
@@ -114,13 +114,13 @@ const hr = {
   margin: '42px 0 26px',
 };
 
-const code = {
-  fontFamily: 'monospace',
-  fontWeight: '700',
-  padding: '1px 4px',
-  backgroundColor: '#dfe1e4',
-  letterSpacing: '-0.3px',
-  fontSize: '21px',
-  borderRadius: '4px',
-  color: '#3c4149',
-};
+// const code = {
+//   fontFamily: 'monospace',
+//   fontWeight: '700',
+//   padding: '1px 4px',
+//   backgroundColor: '#dfe1e4',
+//   letterSpacing: '-0.3px',
+//   fontSize: '21px',
+//   borderRadius: '4px',
+//   color: '#3c4149',
+// };
