@@ -14,11 +14,11 @@ import Stripe from 'stripe';
 const stripe = new Stripe(String(process.env.STRIPE_API_SECRET));
 
 interface InvoicePageProps {
-  params: { invoiceId: string };
-  searchParams: { 
+  params: Promise<{ invoiceId: string }>;
+  searchParams: Promise<{ 
     status: string; 
     session_id: string;
-  };
+  }>;
 }
 
 export default async function InvoicePage({ params, searchParams }: InvoicePageProps) {
